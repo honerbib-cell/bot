@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 // ⚙️ НАСТРОЙКИ
-const TOKEN = '8287902684:AAGQRgDIqNjJj8rcZGys-oQ3ZCYKQqFT4Hk';
+const TOKEN = '8287902684:AAEt29Zz1bYQsj5OQ9YOvrIJlS7V56tHNoA';
 const DISCORD_LINK = 'https://discord.gg/XMrNfZpS';
 
 const bot = new TelegramBot(TOKEN, { polling: true });
@@ -135,3 +135,4 @@ bot.on('message', (msg) => {
 });
 
 console.log('🚀 Бот запущен и готов к работе!');
+
